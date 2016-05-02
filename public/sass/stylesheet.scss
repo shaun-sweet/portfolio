@@ -10,13 +10,15 @@
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
 
+
+
 .side-nav {
 	background-color: #212121;
 }
 
 /*TEXT STYLING*/
 a, li {
-	color: #607D8B;
+	color: white;
 }
 
 body {
@@ -37,7 +39,23 @@ body {
 
 #menu {
 	/*This is mobile menu icon on the top left*/
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+#portfolio{
+	color:white
+}
+#services{
+	color: #c83957
+}
+#blog{
+	color:#679c6a
+}
+#testimonials{
+	color:#fff176
+}
+#contact{
+	color:#436f91
 }
 
 #portrait {
@@ -48,12 +66,15 @@ body {
 	height: 250px;
 }
 
+.social {
+margin-top: -6em;
+}
 nav {
 	height: 6em;
 	padding-left: 10px;
-	padding-right: 40px;
+	padding-right: 60px;
 }
 
-button {
-	margin-bottom: 25px;
+.button {
+	margin-bottom: 50px;
 }

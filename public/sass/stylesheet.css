@@ -1,0 +1,70 @@
+/*COLORS
+*/
+.dark-primary-color {
+  background: #388E3C; }
+
+.default-primary-color {
+  background: #4CAF50; }
+
+.light-primary-color {
+  background: #C8E6C9; }
+
+.text-primary-color {
+  color: #FFFFFF; }
+
+.accent-color {
+  background: #607D8B; }
+
+.primary-text-color {
+  color: #212121; }
+
+.secondary-text-color {
+  color: #727272; }
+
+.divider-color {
+  border-color: #B6B6B6; }
+
+.side-nav {
+  background-color: #212121; }
+
+/*TEXT STYLING*/
+a, li {
+  color: white; }
+
+body {
+  background-color: #4CAF50; }
+
+content {
+  font-size: 20px !important; }
+
+/*
+LAYOUT
+*/
+body {
+  display: flex;
+  flex-direction: column; }
+
+#menu {
+  /*This is mobile menu icon on the top left*/
+  margin-bottom: 30px;
+  font-size: 30px; }
+
+#portrait {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 250px;
+  height: 250px; }
+
+.social {
+  margin-top: -6em; }
+
+nav {
+  height: 6em;
+  padding-left: 10px;
+  padding-right: 60px; }
+
+button {
+  margin-bottom: 25px; }
+
+/*# sourceMappingURL=stylesheet.css.map */

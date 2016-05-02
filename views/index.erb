@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shaunts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/bin/materialize.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <script>
+    $(document).ready(function(){
+     $('.button-collapse').sideNav({
+      menuWidth: 250, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+    );
+   });
+ </script>
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <nav class="dark-primary-color z-depth-0">
+    <div class="row valign-wrapper">
+      <a data-activates="slide-out" id="menu" class="col s2 button-collapse text-primary-color">&#9776;</a>
+
+      <a class="col s2 valign social" href="#"><img src="imgs/github.png" alt="github"></a>
+      <a class="col s2 valign social" href="#"><img src="imgs/facebook-square.png" alt="facebook"></a>
+      <a class="col s2 valign social" href="#"><img src="imgs/stackoverflow.png" alt="stackoverflow"></a>
+      <a class="col s2 valign social" href="#"><img src="imgs/twitter.png" alt="twitter"></a>
+      <a class="col s2 valign social" href="#"><img src="imgs/linkedin.png" alt="linkedin"></a>
+      <ul id="slide-out" class="side-nav">
+        <li><a href="#" id="portfolio"><i class="material-icons">class</i>Portfolio</a></li>
+        <li><a href="#" id="services"><i class="material-icons">launch</i>Services</a></li>
+        <li><a href="#" id="blog"><i class="material-icons">subtitles</i>Blog</a></li>
+        <li><a href="#" id="testimonials"><i class="material-icons">thumb_up</i>Testimonials</a></li>
+        <li><a href="#" id="contact"><i class="material-icons">chat_bubble_outline</i>I want to Chat!</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container center-align">
+    <img id="portrait" class="circle" src="imgs/self.png">
+    <content class="text-primary-color flow-text row"><p class="col s12">My name is Shaun! I am a student of development! I have been interested in computers pretty much my entire life. Since I was a wee lad I have been toying around with and tweaking (read: not twerking) with various things to do with computers. Fun fact: I learned how to touch type playing Diablo II!
+      I just enjoy learning new things. I have many hobbies. In fact, I joke that my hobby is having hobbies. I enjoy learning the piano, as well as exercising and making bizarre smoothies that only I like :D. I have a dog, her name is Athena. We lo</p></content>
+      <div class="button">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Reach out to me
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+
+    <footer class="dark-primary-color center-align">
+      <p class="primary-text-color">Shaun Sweet | copyright 2016</p>
+    </footer>
+  </body>
+  </html>
